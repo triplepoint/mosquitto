@@ -16,6 +16,7 @@ RUN apk --no-cache add \
 
 # This build procedure is based on:
 # https://github.com/alpinelinux/aports/blob/master/main/mosquitto/APKBUILD
+#
 # If this step fails, double check the version build-arg and make sure its
 # a valid published tarball at https://mosquitto.org/files/source/
 RUN mkdir -p /build /install && \
